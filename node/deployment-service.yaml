@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: react
-        image: node/myapp   # Edit
+        image: node/myapp
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
